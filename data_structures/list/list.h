@@ -12,10 +12,11 @@
  * @struct List
  * @brief Represents a dynamic array of void pointers.
  */
-typedef struct {
-    void **items;      /**< Pointer to array of elements */
-    size_t size;       /**< Current number of elements */
-    size_t capacity;   /**< Allocated capacity */
+typedef struct
+{
+    void **items;    /**< Pointer to array of elements */
+    size_t size;     /**< Current number of elements */
+    size_t capacity; /**< Allocated capacity */
 } List;
 
 /**
